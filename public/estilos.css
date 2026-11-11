@@ -1,0 +1,45 @@
+/* Ajustes propios sobre Bootstrap con los colores de Filo Barber Studio */
+:root {
+  --filo-negro: #141414;
+  --filo-dorado: #c9a227;
+}
+
+.navbar-filo {
+  background: var(--filo-negro);
+  border-bottom: 4px solid var(--filo-dorado);
+}
+
+.text-dorado {
+  color: var(--filo-dorado) !important;
+}
+
+.btn-dorado {
+  background: var(--filo-dorado);
+  border-color: var(--filo-dorado);
+  color: #141414;
+  font-weight: 600;
+}
+
+.btn-dorado:hover,
+.btn-dorado:focus {
+  background: #e0b93a;
+  border-color: #e0b93a;
+  color: #141414;
+}
+
+.nav-pills .nav-link.active {
+  background: var(--filo-negro);
+  color: var(--filo-dorado);
+}
+
+.nav-pills .nav-link {
+  color: var(--filo-negro);
+}
+
+.tarjeta-resumen {
+  border-left: 4px solid var(--filo-dorado);
+}
+
+.table thead th {
+  white-space: nowrap;
+}

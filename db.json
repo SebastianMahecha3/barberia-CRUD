@@ -1,0 +1,32 @@
+{
+  "productos": [
+    { "id": 1, "nombre": "Cera mate fijación fuerte", "categoria": "Ceras y pomadas", "precio": 32000, "stock": 25, "proveedorId": 1 },
+    { "id": 2, "nombre": "Pomada brillo clásico", "categoria": "Ceras y pomadas", "precio": 35000, "stock": 20, "proveedorId": 1 },
+    { "id": 3, "nombre": "Polvo texturizante", "categoria": "Polvos y geles", "precio": 28000, "stock": 30, "proveedorId": 2 },
+    { "id": 4, "nombre": "Gel fijación extrema", "categoria": "Polvos y geles", "precio": 18000, "stock": 40, "proveedorId": 2 },
+    { "id": 5, "nombre": "Shampoo anticaspa", "categoria": "Cuidado capilar", "precio": 30000, "stock": 15, "proveedorId": 3 },
+    { "id": 6, "nombre": "Aceite para barba", "categoria": "Barba", "precio": 38000, "stock": 18, "proveedorId": 3 },
+    { "id": 7, "nombre": "Bálsamo para barba", "categoria": "Barba", "precio": 36000, "stock": 4, "proveedorId": 3 }
+  ],
+  "clientes": [
+    { "id": 1, "nombre": "Laura Gómez", "documento": "1012345678", "telefono": "3101112233", "email": "laura@correo.com" },
+    { "id": 2, "nombre": "Andrés Ruiz", "documento": "1023456789", "telefono": "3152223344", "email": "andres@correo.com" },
+    { "id": 3, "nombre": "Camila Torres", "documento": "1034567890", "telefono": "3203334455", "email": "camila@correo.com" }
+  ],
+  "proveedores": [
+    { "id": 1, "nombre": "Distribuidora Estilo Pro", "nit": "900123456-1", "telefono": "3004445566", "email": "ventas@estilopro.com", "ciudad": "Bogotá" },
+    { "id": 2, "nombre": "Cosméticos Andinos S.A.S.", "nit": "901234567-2", "telefono": "3015556677", "email": "pedidos@andinos.com", "ciudad": "Medellín" },
+    { "id": 3, "nombre": "Barba & Co. Importaciones", "nit": "902345678-3", "telefono": "3026667788", "email": "contacto@barbayco.com", "ciudad": "Cali" }
+  ],
+  "compras": [
+    { "id": 1, "fecha": "2026-11-02", "proveedorId": 1, "productoId": 1, "cantidad": 20, "costoUnitario": 18000 },
+    { "id": 2, "fecha": "2026-11-04", "proveedorId": 3, "productoId": 6, "cantidad": 12, "costoUnitario": 21000 },
+    { "id": 3, "fecha": "2026-11-06", "proveedorId": 2, "productoId": 3, "cantidad": 15, "costoUnitario": 15000 }
+  ],
+  "ventas": [
+    { "id": 1, "fecha": "2026-11-05", "clienteId": 1, "productoId": 1, "cantidad": 2, "precioUnitario": 32000 },
+    { "id": 2, "fecha": "2026-11-07", "clienteId": 2, "productoId": 6, "cantidad": 1, "precioUnitario": 38000 },
+    { "id": 3, "fecha": "2026-11-09", "clienteId": 3, "productoId": 4, "cantidad": 3, "precioUnitario": 18000 },
+    { "id": 4, "fecha": "2026-11-10", "clienteId": 1, "productoId": 7, "cantidad": 1, "precioUnitario": 36000 }
+  ]
+}
